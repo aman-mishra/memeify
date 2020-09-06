@@ -10,7 +10,6 @@ const Landing = (props) => {
        <NavBar />
        <Landingcomp />
        <Input />
-       
       </div>
     );
   };
