@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/memeify/static/css/main.a0a87b99.chunk.css",
-    "main.js": "/memeify/static/js/main.3246808f.chunk.js",
-    "main.js.map": "/memeify/static/js/main.3246808f.chunk.js.map",
+    "main.css": "/memeify/static/css/main.a5ad8835.chunk.css",
+    "main.js": "/memeify/static/js/main.5476ba6c.chunk.js",
+    "main.js.map": "/memeify/static/js/main.5476ba6c.chunk.js.map",
     "runtime-main.js": "/memeify/static/js/runtime-main.029561c4.js",
     "runtime-main.js.map": "/memeify/static/js/runtime-main.029561c4.js.map",
-    "static/js/2.846ee7c3.chunk.js": "/memeify/static/js/2.846ee7c3.chunk.js",
-    "static/js/2.846ee7c3.chunk.js.map": "/memeify/static/js/2.846ee7c3.chunk.js.map",
+    "static/js/2.690b136f.chunk.js": "/memeify/static/js/2.690b136f.chunk.js",
+    "static/js/2.690b136f.chunk.js.map": "/memeify/static/js/2.690b136f.chunk.js.map",
     "index.html": "/memeify/index.html",
-    "precache-manifest.798a2f164ec2987e8679f59ecb422e8b.js": "/memeify/precache-manifest.798a2f164ec2987e8679f59ecb422e8b.js",
+    "precache-manifest.8432e495df4bf386a2170f932eb56a6b.js": "/memeify/precache-manifest.8432e495df4bf386a2170f932eb56a6b.js",
     "service-worker.js": "/memeify/service-worker.js",
-    "static/css/main.a0a87b99.chunk.css.map": "/memeify/static/css/main.a0a87b99.chunk.css.map",
-    "static/js/2.846ee7c3.chunk.js.LICENSE.txt": "/memeify/static/js/2.846ee7c3.chunk.js.LICENSE.txt"
+    "static/css/main.a5ad8835.chunk.css.map": "/memeify/static/css/main.a5ad8835.chunk.css.map",
+    "static/js/2.690b136f.chunk.js.LICENSE.txt": "/memeify/static/js/2.690b136f.chunk.js.LICENSE.txt",
+    "static/media/Memeifyname.png": "/memeify/static/media/Memeifyname.ac5592be.png",
+    "static/media/App.css": "/memeify/static/media/background image.954a5f01.png",
+    "static/media/meme_no.png": "/memeify/static/media/meme_no.481b1d3d.png",
+    "static/media/meme_yes.png": "/memeify/static/media/meme_yes.0b0a8bf3.png",
+    "static/media/quote_yes.png": "/memeify/static/media/quote_yes.445a2ca6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.029561c4.js",
-    "static/js/2.846ee7c3.chunk.js",
-    "static/css/main.a0a87b99.chunk.css",
-    "static/js/main.3246808f.chunk.js"
+    "static/js/2.690b136f.chunk.js",
+    "static/css/main.a5ad8835.chunk.css",
+    "static/js/main.5476ba6c.chunk.js"
   ]
 }
