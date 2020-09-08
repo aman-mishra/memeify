@@ -7,7 +7,7 @@ const Input = (props) => {
     return(
         <div className="input">
             <input type="text" placeholder="Enter your notes here ..." className="inputarea"/>
-            <button className="btn">
+            <button className="btn-input">
                 <img src={arrow1} alt="enter" onClick={() => console.log("clicked")}/>
             </button>
         </div>

@@ -1,0 +1,19 @@
+.container{
+    font-family: 'Lora';
+}
+
+.title{
+    text-align: center;
+    font-family: 'Lora';
+}
+
+.form-bg{
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.btn-theme{
+    color: white!important;
+    background-color: #59BAC7!important;
+    border-color: #59BAC7!important;
+}
