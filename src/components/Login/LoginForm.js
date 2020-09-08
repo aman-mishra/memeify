@@ -4,7 +4,7 @@ import "./LoginForm.css";
 const LoginForm = (props) => {
         return (
             <div className="container">
-                    <form className="form-bg mt-4 px-4 py-4 mx-auto">
+                    <form className="form-bg mt-4 px-4 py-4 mx-auto container">
                         <h1 className="title">Log In</h1>
                         <div className="form-group">
                             <label for="exampleInputEmail1">Email address or Username</label>
@@ -15,7 +15,12 @@ const LoginForm = (props) => {
                             <label for="exampleInputPassword1">Password</label>
                             <input type="password" className="form-control" id="exampleInputPassword1" />
                         </div>
-                        <button type="submit" className="btn btn-theme">Login</button>
+                        <center>
+                            <button type="submit" className="btn btn-theme">Login</button>
+                        </center>
+                        
+                    
+                        
                     </form>
             </div>
         );

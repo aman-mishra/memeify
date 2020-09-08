@@ -23,7 +23,8 @@ const SignUpForm = (props) => {
                             <label for="exampleInputPassword1">Confirm Password</label>
                             <input type="password" className="form-control" id="exampleInputPassword1" />
                         </div>
-                        <button type="submit" className="btn btn-theme">Sign Up</button>
+                        <center><button type="submit" className="btn btn-theme">Sign Up</button></center>
+                        
                     </form>
             </div>
         );

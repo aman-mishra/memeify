@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logoimg from "../../assets/Images/Memeify.png"
+import logoimg from "../../assets/Images/Memeify.png";
 
 const Navbar = (props) => {
     return(
@@ -16,8 +16,6 @@ const Navbar = (props) => {
                    </th>
                </tr>
            </table>
-           
-           
         </div>
     );
 };
