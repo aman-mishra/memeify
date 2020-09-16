@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import logoimg from "../../assets/Images/Memeify.png";
+import logoimg from "../../assets/Images/Memeify.png"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Navbar = (props) => {
     return(
@@ -16,6 +17,8 @@ const Navbar = (props) => {
                    </th>
                </tr>
            </table>
+           
+           
         </div>
     );
 };

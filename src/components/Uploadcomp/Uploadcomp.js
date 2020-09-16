@@ -2,7 +2,7 @@ import React from "react";
 import "./Uploadcomp.css";
 
 import pages from "../../assets/Images/uploadpages.png"
-import procesing from "../../assets/Images/uploadprocessing.png"
+import procesing from "../../assets/Images/loading.gif"
 
 const Uploadcomp = (props) => {
     return(
