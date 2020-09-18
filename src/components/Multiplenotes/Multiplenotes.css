@@ -34,7 +34,7 @@
     background-color: #50A3B6;
     color: white;
     border: none;
-    outline: none;
+    outline: none !important;
     border-radius: 1rem;
     width: 7rem;
     height: 3rem;

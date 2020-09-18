@@ -2,13 +2,15 @@ import React from "react";
 import NavBar from "../components/Navbar/Navbar";
 import LoginForm from "../components/Login/LoginForm";
 
-const Login = (props) => {
-    return (
+class Login extends React.Component{
+  render(){
+    return(     
       <div>
-      <NavBar />
-      <LoginForm />
+        <NavBar />
+        <LoginForm />
       </div>
-    );
-  };
+    )
+  }
+}
   
-  export default Login;
+export default Login;

@@ -2,13 +2,16 @@ import React from "react";
 import NavBar from "../components/Navbar/Navbar";
 import SignUpForm from "../components/Signup/SignUpForm";
 
-const Signup = (props) => {
-    return (
+
+class Signup extends React.Component{
+  render(){
+    return(     
       <div>
-        <NavBar />
-        <SignUpForm />
+          <NavBar />
+          <SignUpForm />
       </div>
-    );
-  };
+    )
+  }
+}
   
-  export default Signup;
+export default Signup;

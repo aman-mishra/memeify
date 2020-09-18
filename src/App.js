@@ -5,10 +5,11 @@ import Landing from './pages/Landing';
 import Login from './pages/Login';
 import Main from './pages/Main';
 import Signup from './pages/Signup';
+import history from './history';
 
 function App() {
   return (
-    <Router>
+    <Router history={history}>
       <div className="App">
       <Switch>
         <Route path="/" exact component={Landing} />

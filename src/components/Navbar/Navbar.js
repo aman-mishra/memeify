@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import logoimg from "../../assets/Images/Memeify.png"
 import 'bootstrap/dist/css/bootstrap.min.css'
+import history from '../../history';
 
 const Navbar = (props) => {
     return(
@@ -10,10 +11,10 @@ const Navbar = (props) => {
            <table>
                <tr>
                    <th>
-                   <button className="signup"> Sign Up </button>
+                   <button className="signup" onClick={() => history.push('/Signup')}> Sign Up </button>
                    </th>
                    <th>
-                   <button className="login"> Login </button>
+                   <button type="submit" className="login" onClick={() => history.push('/Login')}> Login </button>
                    </th>
                </tr>
            </table>

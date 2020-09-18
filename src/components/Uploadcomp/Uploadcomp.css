@@ -37,18 +37,11 @@
     margin: 1rem;
 }
 .changingimg{
-    width: 7rem;
-    height: 7rem;
+    width: 25rem;
+    height: 19rem;
     position: relative;
     float: right;
-    margin: 10% 20%;
-    animation: rotation 2s infinite linear;
+    margin: 4% 10%;
+   
 }
-@keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
+

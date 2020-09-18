@@ -1,5 +1,6 @@
 import React from "react";
 import "./SignUpForm.css";
+import history from '../../history';
 
 const SignUpForm = (props) => {
         return (
@@ -23,7 +24,7 @@ const SignUpForm = (props) => {
                             <label for="exampleInputPassword1">Confirm Password</label>
                             <input type="password" className="form-control" id="exampleInputPassword1" />
                         </div>
-                        <center><button type="submit" className="btn btn-theme">Sign Up</button></center>
+                        <center><button type="submit" className="btn btn-theme" onClick={() => history.push('/Main')}>Sign Up</button></center>
                         
                     </form>
             </div>
